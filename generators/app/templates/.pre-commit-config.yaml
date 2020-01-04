@@ -1,0 +1,14 @@
+repos:
+  - repo: git://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+      - id: check-merge-conflict
+      - id: detect-aws-credentials
+      - id: end-of-file-fixer
+      - id: flake8
+      - id: requirements-txt-fixer
+  - repo: https://github.com/awslabs/cfn-python-lint
+    rev: v0.26.2 # The version of cfn-lint to use
+    hooks:
+      - id: cfn-python-lint
+        files: .*\.(json|yml|yaml)$

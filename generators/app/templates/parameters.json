@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t3.micro"
+    },
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "Cloud9IDE"
+    }
+]

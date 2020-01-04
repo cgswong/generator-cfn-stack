@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Sample CloudFormation template, creating Cloud9 IDE
+
+Metadata:
+  TemplateVersion:
+    Value: 'v0.1.0'
+
+Parameters:
+  EnvironmentName:
+    Type: 'String'
+    Description: 'Name of the environment'
+    Default: 'MyIDE'
+  InstanceType:
+    Type: 'String'
+    Description: 'Type of EC2 instance'
+    Default: 't3.micro'
+
+Resources:
+  Cloud9IDE:
+    Type: 'AWS::Cloud9::EnvironmentEC2'
+    Properties:
+      AutomaticStopTimeMinutes: 30
+      Description: 'Cloud9 IDE environment'
+      InstanceType: !Ref InstanceType
+      Name: !Ref EnvironmentName
+
+Outputs:
+  TemplateVersion:
+    Description: 'Template version'
+    Value: '0.1.0'
+  Cloud9EnvironmentName:
+    Description: 'Template version'
+    Value: !GetAtt 'Cloud9IDE.Name'
