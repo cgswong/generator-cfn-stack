@@ -37,7 +37,7 @@ Scaffolding for new AWS CloudFormation template projects.
 3. Install this generator
 
    ```bash
-   npm install -g cfn-stack
+   npm install -g cfn-template
    ```
 
 ## Usage
@@ -45,7 +45,7 @@ Scaffolding for new AWS CloudFormation template projects.
 To use the included generator execute the below command in shell and provide your new module name for the prompt
 
 ```bash
-> yo cfn-stack
+> yo cfn-template
 ...
 ? Enter name for the new CloudFormation template:  example-module
 ? Enter description for the new CloudFormation template:  Example CloudFormation template

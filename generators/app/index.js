@@ -10,7 +10,7 @@ module.exports = class extends Generator {
 
   async prompting() {
     this.log(
-      yosay('Welcome to the cfn-stack generator v0.1.0!')
+      yosay('Welcome to the cfn-template generator v1.0.0!')
     );
 
     this.answers = await this.prompt([{

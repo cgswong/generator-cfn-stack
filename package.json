@@ -1,6 +1,6 @@
 {
-  "name": "generator-cfn-stack",
-  "version": "0.1.0",
+  "name": "generator-cfn-template",
+  "version": "1.0.0",
   "description": "Scaffolding for AWS CloudFormation project",
   "main": "index.js",
   "files": [
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/cgswong/generator-cfn-stack.git"
+    "url": "git+ssh://git@github.com/cgswong/generator-cfn-template.git"
   },
   "keywords": [
     "yeoman-generator",
@@ -23,9 +23,9 @@
   "author": "cgswong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cgswong/generator-cfn-stack/issues"
+    "url": "https://github.com/cgswong/generator-cfn-template/issues"
   },
-  "homepage": "https://github.com/cgswong/generator-cfn-stack#readme",
+  "homepage": "https://github.com/cgswong/generator-cfn-template#readme",
   "dependencies": {
     "yeoman-generator": "^4.4.0",
     "yosay": "^2.0.2"
