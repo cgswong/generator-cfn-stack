@@ -1,6 +1,6 @@
 {
   "name": "generator-cfn-stack",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Scaffolding for AWS CloudFormation project",
   "main": "index.js",
   "files": [
